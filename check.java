@@ -11,7 +11,7 @@ class check {
         }
         else 
         {
-            System.out.println(x + " 2");
+            System.out.println(x + " is odd");
         }
         s.close();
     }
