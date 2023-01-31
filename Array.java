@@ -15,7 +15,7 @@ class Array {
         for(int j = 0 ; j < size ; j++){
             avg = avg+ a[j];
         }
-        int ans = avg/size;
+        int ans = (avg/size) * 100;
         System.out.println("your avg marks is :"+ ans );
 
         scanner.close();
