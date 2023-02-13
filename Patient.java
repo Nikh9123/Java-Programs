@@ -5,6 +5,7 @@ class Patient{
     String Pname ;
     int Page ;
     long PCno ;
+    
 
     Patient(String Name , int age , int Cno){
         this.Pname = Name ;
