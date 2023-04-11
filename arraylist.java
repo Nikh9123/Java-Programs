@@ -10,9 +10,8 @@ import java.util.*;
 
 class arraylist {
     public static void main(String[] args) {
-        int x = 10, y = 5;
-        while (x-- > 7 || ++y < 8) {
-        }
-        System.out.println(x + " " + " " + y);
+      String str1 = new String("OKAY");
+      String str2 = new String(str1);
+      System.out.println(str1 + str2);
     }
 }
